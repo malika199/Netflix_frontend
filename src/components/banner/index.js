@@ -4,12 +4,14 @@ import PlayArrowIcon from '@material-ui/icons/PlayArrow';
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 
 function Banner() {
-    const bannerStyle={
-        backgroundImage:`url("https://static3.srcdn.com/wordpress/wp-content/uploads/2021/10/Squid-Game-and-Hunger-Games.jpg")`,
-        backgroundSize: "Cover",
-        backgroundPosition: "center center",
-    };
-  return <headear className={styles.banner}  style={bannerStyle}>
+    // const bannerStyle={
+    //     backgroundImage:`url("https://static3.srcdn.com/wordpress/wp-content/uploads/2021/10/Squid-Game-and-Hunger-Games.jpg")`,
+    //     backgroundSize: "Cover",
+    //     backgroundPosition: "center center",
+    // };
+  return <headear className={styles.banner}
+    // style={bannerStyle}
+  >
       <div className={styles.banner__content}>
           <h1 className={styles.banner__title}>Squide game</h1>
           <p  className={styles.banner__description} >

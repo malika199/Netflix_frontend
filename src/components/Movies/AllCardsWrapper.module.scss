@@ -1,9 +1,0 @@
-.Wrapper{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-  
-    @media (max-width: 650px) {
-      flex-direction: column;
-    }
-  };

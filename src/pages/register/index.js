@@ -1,6 +1,4 @@
-import React from 'react';
-import { useEffect, useState } from "react";
-
+import React, { useEffect, useState } from 'react';
 import style from './register.module.scss';
 
 import { useRouter } from "next/router";
@@ -11,8 +9,9 @@ import authService from "../../services/auth.service";
 import HeaderWrapper from '../../components/Header/HeaderWrapper';
 import Navbar from '../../components/Header/Navbar';
 import Logo from '../../components/Header/Logo';
+import Link from 'next/link';
 
-function register(){
+const Index = () => {
     const router = useRouter();
     const [user, setUser] = useState({});
     const [error, setError] = useState(false);
@@ -97,7 +96,7 @@ function register(){
                 
                 Already a user?
           
-                <a href="/login" className={style.SignFormLink} > Sign in now. </a>
+              <Link href="/login" > <a className={style.SignFormLink} > Sign in now. </a></Link> 
             </p>
 
 
@@ -117,4 +116,4 @@ function register(){
 
 }
 
-export default register;
+export default Index;

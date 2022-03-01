@@ -8,6 +8,7 @@ import { useRouter } from "next/router";
 import HeaderWrapper from '../../components/Header/HeaderWrapper';
 import Navbar from '../../components/Header/Navbar';
 import Logo from '../../components/Header/Logo';
+import Link from 'next/link';
 
 function SigninForm(){
 
@@ -77,7 +78,7 @@ function SigninForm(){
             <p className={style.SignFormText} >
             New to Netflix?
           
-                <a href="/register" className={style.SignFormLink} > Sign up now. </a>
+              <Link href="/register"><a className={style.SignFormLink} > Sign up now. </a></Link>   
             </p>
 
       

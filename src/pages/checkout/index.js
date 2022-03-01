@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './checkout.module.scss';
-import Link from 'next/react';
 import Link from "next/link";
 
 // const handleConfirmation = async () => {
