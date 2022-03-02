@@ -96,7 +96,7 @@ const Index = () => {
                 
                 Already a user?
           
-              <Link href="/login" > <a className={style.SignFormLink} > Sign in now. </a></Link> 
+              <Link href="/login" className={style.SignFormLink} >  Sign in now. </Link> 
             </p>
 
 
