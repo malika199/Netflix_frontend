@@ -15,12 +15,12 @@ function Banner() {
       <div className={styles.banner__content}>
           <h1 className={styles.banner__title}>Squide game</h1>
           <p  className={styles.banner__description} >
-            Des personnes en difficultés financières sont invitées à une mystérieuse compétition de survie. Participant à une série de jeux traditionnels pour enfants, mais avec des rebondissements mortels, elles risquent leur vie pour une grosse somme d'argent.
+            Des personnes en difficultés financières sont invitées à une mystérieuse compétition de survie. Participant à une série de jeux traditionnels pour enfants, mais avec des rebondissements mortels, elles risquent leur vie pour une grosse somme d argent.
             
           </p>
           <div className={styles.banner__buttons}>
               <button className={styles.banner__button}  banner_button--play> <PlayArrowIcon /> Lecture</button>
-              <button className={styles.banner__button}> <HelpOutlineIcon/>Plus d'infos</button>
+              <button className={styles.banner__button}> <HelpOutlineIcon/>Plus d infos</button>
           </div>
       </div>
   </headear>;

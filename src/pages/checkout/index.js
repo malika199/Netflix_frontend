@@ -70,7 +70,7 @@ const Index = () => {
                        {/* <input type="radio" name="plan" /> */}
 
                        <span>
-                       <Link href='/browse' ><a  className={styles.plan} href='/browse' 
+                       <Link href='/browse' ><a  className={styles.plan} 
                         // onClick={handleConfirmation} 
                         >
                                 Abonnement premium                   
@@ -78,10 +78,7 @@ const Index = () => {
                        </Link>
                         </span>
                    </label>
-                   {/* <label>
-                       <input type="radio" name="plan" />
-                       <span className={styles.plan}>Premium</span>
-                   </label> */}
+                 
                 </div>
                 <div>
                 </div>
