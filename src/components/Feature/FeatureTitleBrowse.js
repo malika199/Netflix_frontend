@@ -2,7 +2,7 @@ import React from "react";
 import style from "./FeatureTitleBrowse.module.scss";
 
 /*---> Component <---*/
-function FeatureTitleBrowse({ children, ...restProps }) {
+const FeatureTitleBrowse = ({ children, ...restProps }) => {
   return <h1 className={style.Title}  {...restProps}>{children}</h1>;
 }
 

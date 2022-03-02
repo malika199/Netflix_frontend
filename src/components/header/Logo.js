@@ -3,7 +3,7 @@ import React from "react";
 import style from "./Logo.module.scss"
 
 
-function Logo({ children, ...restProps }) {
+const Logo = ({ children, ...restProps }) =>{
   return (
     <div>
       <Link href="/" >

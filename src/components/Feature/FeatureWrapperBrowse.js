@@ -1,6 +1,6 @@
 import React from "react";
 
-function FeatureWrapperBrowse({ children, ...restProps }) {
+const FeatureWrapperBrowse = ({ children, ...restProps }) => {
   return <div {...restProps}>{children}</div>;
 }
 

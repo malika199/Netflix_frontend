@@ -2,7 +2,7 @@ import React from "react";
 import style from "./HeaderLink.module.scss";
 
 /*---> Component <---*/
-function HeaderLink({ children, ...restProps }) {
+const HeaderLink = ({ children, ...restProps }) => {
   return (
     <div className={style.Wrapper} >
       <a {...restProps}>{children}</a>
